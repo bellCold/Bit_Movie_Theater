@@ -1,0 +1,70 @@
+#container {
+    display: flex;
+    height: 300px;
+    max-width: 1100px;
+}
+
+#expertName {
+    width: 100px;
+}
+
+#expertComent {
+    width: 600px;
+}
+
+.input {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    height: 40px;
+    background-color: #1d2b3a;
+    color: white;
+    font-size: 12px;
+}
+
+#container span,
+container {
+    padding: 10px;
+}
+
+#formDiv {
+    
+    background-color: #1d2b3a;
+    position: relative;
+}
+
+#formDiv span {
+    margin: 10px;
+    color: white;
+}
+
+#btn {
+    height: 40px;
+    width: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    background-color: #1d2b3a;
+    color: white;
+}
+
+#expertComentBox {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 200px;
+}
+
+#expertComentBox div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#expertComentBox div span {
+    border: 1px soild rgba(255, 255, 255, 0.25);
+    letter-spacing: 0.2em;
+}
+
+#formDiv p {
+    color: white;
+    margin-left: 15px;
+}

@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    margin: 20px;
+    margin-top: 0;
+    border-top: 1px solid crimson;
+}
+
+.header {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 100px;
+    font-weight: none;
+    text-align: center;
+    text-shadow: 1px 1px 20px blue;
+    text-transform: capitalize;
+}
+
+.main {
+    display: flex;
+}
+
+.main .main_left {
+    width: 50%;
+}
+
+.main .left_top {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px crimson;
+}
+
+.main .left_mid {
+    display: flex;
+
+}
+
+.left_mid .left_mid_img {
+    width: 50%;
+}
+
+.left_mid .left_mid_movie_info {
+    text-align: center;
+}
+
+.main_right .right_star_score #score-submit #scoreValue {
+    color: black;
+}

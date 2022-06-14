@@ -1,0 +1,16 @@
+.score-wrapper {
+    font-size: 30px;
+}
+
+.score-wrapper .score {
+    position: relative;
+    display: inline-flex;
+}
+
+.score-wrapper .score #foreground {
+    width:0%;
+    overflow: hidden;
+}
+.score-wrapper .score #background { 
+    position: absolute;
+}
