@@ -1,15 +1,16 @@
-#container {
+.rigtht_content {
     display: flex;
     height: 300px;
-    max-width: 1100px;
+    width: 100%;
+    
 }
 
 #expertName {
-    width: 100px;
+    width: 50px;
 }
 
 #expertComent {
-    width: 600px;
+    width: 280px;
 }
 
 .input {
@@ -23,25 +24,34 @@
     font-size: 12px;
 }
 
-#container span,
-container {
+.rigtht_content span,
+.rigtht_content {
     padding: 10px;
 }
 
+
+
 #formDiv {
-    
-    background-color: #1d2b3a;
+    border-radius: 8px;
+    height: 450px;
+    background-color: bisque;
     position: relative;
 }
 
 #formDiv span {
-    margin: 10px;
-    color: white;
+    margin: 3px;
+    color: black;
+}
+
+#formDiv #expertComentFrom p{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #btn {
     height: 40px;
-    width: 60px;
+    width: 50px;
     border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 5px;
     background-color: #1d2b3a;

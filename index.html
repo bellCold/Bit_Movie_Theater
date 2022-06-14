@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100;300&family=Water+Brush&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100;300&family=Water+Brush&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="jong.css">
     <link rel="stylesheet" href="sang.css">
@@ -45,6 +47,12 @@
         </div>
         <!--Main right-->
         <div class="main_right">
+
+            <div class="right_chart">
+                <div id=chart>
+                    <canvas id="movieChart"></canvas>
+                </div>
+            </div>
             <div class="right_star_score">
                 <form id="score-submit">
                     <div class="score-wrapper">
@@ -59,43 +67,26 @@
                 </form>
             </div>
             <div class="rigtht_content">
-                <div id="container">
-                    <div id="formDiv">
-                      <form action="" id="expertComentFrom">
-                       <p> 전문가 평가</p>
+                <div id="formDiv">
+                    <form action="" id="expertComentFrom">
+                        <p> 전문가 평가</p>
                         <span>이름</span>
-                        <input
-                          type="text"
-                          name=""
-                          id="expertName"
-                          placeholder="이름"
-                          class="input"
-                          required
-                        />
+                        <input type="text" name="" id="expertName" placeholder="이름" class="input" required />
                         <span>한마디</span>
-                        <input
-                          type="text"
-                          id="expertComent"
-                          placeholder="한마디 입력"
-                          class="input"
-                          required
-                        />
-                        <span><input type="submit" value=" * " id="btn" /></span>
-                      </form>
-                      <div id="expertComentBox" style="overflow: auto;">
-              
-                       </div>
-                      </div>
+                        <input type="text" id="expertComent" placeholder="한마디 입력" class="input" required />
+                        <span><input type="submit" value="댓글" id="btn" /></span>
+                    </form>
+                    <div id="expertComentBox" style="overflow: auto;">
                     </div>
-                  </div>
+                </div>
 
             </div>
         </div>
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="jong.js"></script>
-    <script src="hyeok.js" ></script>
-    <script src ="sang.js"></script>
+    <script src="hyeok.js"></script>
+    <script src="sang.js"></script>
 </body>
 
 </html>

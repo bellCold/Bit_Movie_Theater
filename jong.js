@@ -15,4 +15,4 @@ function liveUserScore() {
 }
 
 scoreSubmit.addEventListener("submit", starScoreChange);
-userScore.addEventListener("change", liveUserScore);
+userScore.addEventListener("input", liveUserScore);

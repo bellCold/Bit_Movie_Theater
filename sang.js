@@ -3,9 +3,6 @@ const expertName = document.getElementById("expertName");
 const expertComent = document.getElementById("expertComent");
 const comentBox = document.getElementById("expertComentBox");
 
-
-
-
 function printExpertComent(event) {
    event.preventDefault();
    const name = expertName.value;
